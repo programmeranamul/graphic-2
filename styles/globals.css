@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:sans-serif;
 }
 
 a {
@@ -14,3 +13,39 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+
+/* color */
+.text-orange{
+  color: orange;
+}
+
+
+/* font-size */
+.fs-14{
+  font-size: 14px;
+}
+.fs-15{
+  font-size: 15px;
+}
+
+
+/* next image style overwrite */
+.next_image_container > div{
+position: unset !important;
+}
+
+.next_image_container > div div{
+  padding-top: 0 !important;
+}
+.next_image{ 
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+}
+
+.footer_top_logo{
+  max-width: 300px !important;
+}
+

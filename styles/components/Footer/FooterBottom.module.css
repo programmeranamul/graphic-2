@@ -1,0 +1,45 @@
+.footer_bottom{
+background-color: #111240;
+}
+.link_container{
+    position: relative;
+    padding-left: 8px;
+}
+.link_container::after{
+    position: absolute;
+    content: "";
+    width: 102%;
+    height: .1px;
+    background-color: #403f3f;
+    bottom: 2px;
+    left: -1%;
+    margin: auto;
+}
+.link_container span{
+    color: white;
+    font-size: 13px;
+    margin: 5px;
+    font-weight: 600;
+}
+.link_container a{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+.link_container a:hover{
+    color: #fff;
+}
+
+.copy_write_text{
+    padding: 15px 0;
+    color: #bbb;
+}
+
+.copy_write_text a{
+    color: #fff;
+    opacity: .7;
+}
+.copy_write_text a:hover{
+    text-decoration: none;
+    color: orange;
+}

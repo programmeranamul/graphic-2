@@ -1,0 +1,62 @@
+
+
+.footer_top{
+    background-color: #111240;
+    padding: 80px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.title{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    position: relative;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.title::after{
+    background: orange none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.top_footer_icon{
+    height: 14px;
+    color: orange;
+}
+
+.link{
+    margin-bottom: 2px;
+}
+
+.get_in_touch{
+    max-width: 240px;
+}
+.get_in_touch_icon{
+    height: 14px;
+    color: orange;
+    margin-right: 6px;
+}
+.get_in_touch span{
+    margin-top: 2px;
+}
+.get_in_touch p{
+    margin-bottom: 8px;
+}
+
+
+/* payment section */
+.payment_section p{
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.paypal_logo{
+    max-width: 230px;
+    margin-bottom: 10px;
+}

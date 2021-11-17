@@ -1,0 +1,52 @@
+.free_trail_btn {
+  background: orange;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: .4S;
+  margin-right: 10px;
+}
+
+.get_quate_btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 4px;
+  transition: .4S;
+  border: 2px solid;
+}
+
+ .free_trail_btn:hover{
+    color: #444;
+}
+.get_quate_btn:hover{
+    color: green;
+}
+
+.FreeTrialOrGetQuate {
+  padding: 15px 0;
+  background: #4665b1;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+.btn_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width:350px) { 
+    .free_trail_btn{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .get_quate_btn{padding: 8px 18px;}
+    .btn_container{
+        flex-direction: column;
+    }
+ }

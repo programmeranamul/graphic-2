@@ -1,0 +1,74 @@
+
+.top_header{
+    background-color: #111240;
+    padding: 10px 0;
+    color: white;
+}
+
+.left_container{
+    padding-top: 3px;
+}
+
+.envelope, .phone{
+    height: 14px;
+    color: orange;
+    cursor: pointer;
+}
+
+.email:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.social_icon{
+    margin-right: 5px;
+    transition: all .4s ease 0s;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    width: 30px;
+    margin-left: 5px;
+    border-color: transparent;
+}
+.social_icon svg{
+    height: 14px;
+}
+.social_icon:hover{
+    background-color: orange;
+    color: #337ab7;
+}
+.twitter_bg{
+     background-color: #1da1f2;
+}
+.twitter{
+    /* background-color: #1da1f2; */
+}
+.facebook{
+    /* background-color: #3b5998; */
+    /* margin-left: 20px; */
+}
+.facebook_bg{
+    background-color: #3b5998;
+    margin-left: 20px;
+}
+.instagram_bg {
+    background-color: #e30079;
+}
+.instagram {
+    background-color: #e30079;
+}
+.pinterest_bg{
+    background-color: #de0000;
+}
+.pinterest{
+    background-color: #de0000;
+}
+.linkDin{
+    background-color: #0077b5;
+}
+.linkDin_bg{
+    background-color: #0077b5;
+}
