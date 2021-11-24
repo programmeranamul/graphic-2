@@ -1,0 +1,150 @@
+.text_section {
+  padding: 60px 0 20px;
+}
+.text_section p {
+  line-height: 28px;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+/* ------------StartPricing -----------------*/
+.startPricing_section {
+  padding: 40px 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+.startPricing_section h2 {
+  font-weight: 900;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+.price_table {
+  margin-top: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.price_table h4 {
+  background: #162438;
+  color: #fff;
+  font-size: 20px;
+  line-height: 90px;
+  margin-bottom: 0;
+  box-shadow: 0 0 30px rgb(0 0 0 / 30%) inset;
+  font-weight: 600;
+}
+
+.highlight_title{
+   background: orange !important;
+}
+
+.price_ul{
+   background: #fffde0;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.price_ul li{
+   padding: 12px 5px;
+    font-weight: 600;
+    box-shadow: 0 0 20px rgb(0 0 0 / 20%) inset;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    border-bottom: 1px solid #e3df98;
+}
+.price_ul li:last-child{
+  
+    border-bottom: none;
+}
+.price_ul li strong{
+   color: #212b7c;
+    font-weight: 900;
+}
+
+
+.default_ul{
+   background: #eee;
+   font-weight: 700;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.default_ul li{
+   padding: 15px 5px;
+   border-bottom: 1px solid #ccc;
+   box-shadow: 0 0 20px rgb(0 0 0 / 30%) inset;
+   font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    font-weight: 700;
+}
+.free_trial{
+   background: orange;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 15px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.btn_container{
+   background: #eee;
+    padding: 15px 0;
+    box-shadow: 0 0 20px rgb(0 0 0 / 20%) inset;
+}
+
+
+
+/* ----------FacilitiesVolumeImages_section --------*/
+
+.FacilitiesVolumeImages_section{
+  padding: 30px 0;font-family: sans-serif;
+  
+  color: #333;
+}
+
+.FacilitiesVolumeImages_section h2{
+  font-weight: 800;    font-size: 30px;line-height: 1.1;margin: 0 0 15px;
+}
+.FacilitiesVolumeImages_section p{
+  line-height: 28px;
+  font-size: 15px;margin: 0 0 14px;
+}
+
+.bulk{
+  font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 1.42857143;
+    margin-bottom: 0px !important;
+}
+
+
+/* --------FrequentlyAskedQuestion --------------*/
+
+.FrequentlyAskedQuestion_section{
+  padding: 30px 0 60px;
+  font-family: sans-serif;color: #333;
+
+}
+
+.ans{
+  font-size: 16px;
+}
+
+.qus{
+  font-weight: 700;
+  color: orange;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 0;    line-height: 28px;
+}
+
+
+
+
+

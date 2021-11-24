@@ -1,0 +1,79 @@
+
+.section{
+    padding: 80px 0;
+    font-family: sans-serif !important; 
+}
+.form{
+    font-family: sans-serif;
+    color: #333;
+}
+
+.form p{
+    line-height: 28px;
+    font-size: 15px;
+}
+.form h4{
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+.send{
+    background: #337ab7 !important;
+    padding: 10px !important;
+    border: medium none !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    font-family: sans-serif !important; 
+}
+
+.my_input{
+    border-color: #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+.my_input::placeholder {
+    font-family: sans-serif !important; 
+    font-size: 15px;
+  }
+
+  .right_side{
+      color: #333;
+  }
+  .right_side h4{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0 0 15px;
+    line-height: 1.1;
+  }
+
+  .right_side ul{
+      list-style: none;
+      padding: 0;
+  }
+  .right_side ul li{
+    padding: 5px 0 5px 30px;
+    max-width: 300px;
+    font-weight: 600;
+   
+    position: relative;
+  }
+  .right_side ul li svg{
+    font-size: 18px;
+    top: 7px;
+    left: 0;
+    color: #135aa7;
+    position: absolute;
+}
+
+
+@media (max-width: 767.98px) {
+    .section{
+        padding: 40px 0 50px;
+    }
+ }
