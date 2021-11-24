@@ -7,6 +7,8 @@ import HomeEditingProcess from './../comonents/Home/HomeEditingProcess/HomeEditi
 import HomePrice from './../comonents/Home/HomePrice/HomePrice';
 import RecentPost from './../comonents/RecentPost/RecentPost';
 import HomeResult from './../comonents/Home/HomeResult/HomeResult';
+import HomeGrowYourBuisness from './../comonents/Home/HomeGrowYourBuisness/HomeGrowYourBuisness';
+import HomeBenefits from './../comonents/Home/HomeBenefits/HomeBenefits';
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
         <HomeEditingProcess />
         <HomePrice />
         <HomeResult />
+        <HomeBenefits />
+        <HomeGrowYourBuisness />
         <RecentPost />
       </main>
     </div>
