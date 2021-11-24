@@ -2,7 +2,6 @@ import style from "../../../styles/home/HomeBenefits.module.css";
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa";
 
-//Key-Benefits-of-Clipping-Path-Solve-1.webp
 
 const datas = [
   "Get high quality image editing",
@@ -35,7 +34,6 @@ function HomeBenefits() {
           <div className="col-md-6">
             <h2> Key Benefits of Clipping Path Solve</h2>
             <p>
-              {" "}
               Nowadays clipping paths are one of the most popular photo editing
               techniques for various purposes. Clipping Path Solve helps
               professional photographers, eCommerce business owners, magazines,

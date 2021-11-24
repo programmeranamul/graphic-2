@@ -9,6 +9,7 @@ import RecentPost from './../comonents/RecentPost/RecentPost';
 import HomeResult from './../comonents/Home/HomeResult/HomeResult';
 import HomeGrowYourBuisness from './../comonents/Home/HomeGrowYourBuisness/HomeGrowYourBuisness';
 import HomeBenefits from './../comonents/Home/HomeBenefits/HomeBenefits';
+import HomeEditingServices from "../comonents/Home/HomeEditingServices/HomeEditingServices"
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <HomeFetaures />
         <HomeClippingPathService />
         <HomeEditingProcess />
+        <HomeEditingServices />
         <HomePrice />
         <HomeResult />
         <HomeBenefits />
