@@ -1,0 +1,21 @@
+.img_section {
+  width: 100%;
+  max-width: 700px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  float: right;
+  margin: 0 0 10px 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.articel_wrapper {
+  font-size: 16px;
+  text-align: justify;
+  font-family: sans-serif;
+}
+.section{
+    padding: 80px 0;
+}

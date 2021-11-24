@@ -1,0 +1,35 @@
+.section{
+    padding: 80px 0;
+    background: #eee;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.content{
+    font-family: sans-serif;
+}
+.content h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #333;
+}
+.content h3::after{
+    background: orange;
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content p{
+    line-height: 28px;
+    font-size: 15px;
+    color: #333;
+    /* text-align: center; */
+}
