@@ -6,6 +6,7 @@ import HomeClippingPathService from './../comonents/Home/HomeClippingPathService
 import HomeEditingProcess from './../comonents/Home/HomeEditingProcess/HomeEditingProcess';
 import HomePrice from './../comonents/Home/HomePrice/HomePrice';
 import RecentPost from './../comonents/RecentPost/RecentPost';
+import HomeResult from './../comonents/Home/HomeResult/HomeResult';
 
 export default function Home() {
   return (
@@ -16,11 +17,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.mainf}>
-        <Banner />
+        <Banner />       
         <HomeFetaures />
         <HomeClippingPathService />
         <HomeEditingProcess />
         <HomePrice />
+        <HomeResult />
         <RecentPost />
       </main>
     </div>

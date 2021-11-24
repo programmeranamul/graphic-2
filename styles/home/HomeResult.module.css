@@ -1,0 +1,42 @@
+.section{
+    padding: 100px 0 40px;
+    background: #21325b;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.title{
+    color: orange;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 28px;
+    margin: 0 0 10px;
+}
+
+.we_done{
+    margin-bottom: 50px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 15px;
+}
+.count{
+    color: orange;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.after_count{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 991.98px) { 
+    .count{
+        font-size: 60px;
+    }
+ }
